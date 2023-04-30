@@ -39,13 +39,13 @@ EOF
 #CONFIG_PACKAGE_kmod-fs-vfat=y
 #EOF
 
-#启用软件
-cat >> .config <<EOF
-CONFIG_PACKAGE_luci-app-argon-config=y
-CONFIG_PACKAGE_luci-app-jd-dailybonus=y
-EOF
+# #启用软件
+# cat >> .config <<EOF
+# CONFIG_PACKAGE_luci-app-argon-config=y
+# CONFIG_PACKAGE_luci-app-jd-dailybonus=y
+# EOF
 
-#启用主题
-cat >> .config <<EOF
-CONFIG_PACKAGE_luci-theme-argon=y
-EOF
+# #启用主题
+# cat >> .config <<EOF
+# CONFIG_PACKAGE_luci-theme-argon=y
+# EOF
